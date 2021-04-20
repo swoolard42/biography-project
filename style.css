@@ -41,7 +41,7 @@ li a {
 .bio-background {
  background-image: url("images/light-wood.jpg");
  background:no-repeat;
- size: 1140px;
+ size: 5000px;
 }
 
 .bio-quote {
@@ -65,9 +65,24 @@ li a {
 
 .bio-text {
     display: flex;
-    pos
 
 }
+
+.timeline-header {
+    font-size: 50px;
+}
+
+.boston-img {
+   width: 100px;
+   height: 100px;
+}
+
+.boston-title {
+    font-size: 30px;
+}
+
+
+
 
 
 
