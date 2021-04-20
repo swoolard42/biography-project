@@ -1,21 +1,19 @@
 
 nav {
     font-size: 24px;
-    width:1440px;
     height: 100px;
-    position:relative;
-    float: right;
     background-color:#115A92;
     
 }
-.NavHeader {
-    position:relative;
-    padding: 25 25px;
-     top: 25px;
-     left: 0px;
+.nav-header {
+    padding: 0 25px;
      background-color:#115A92;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    }
+
 ul li {
   list-style-type: none;
   padding:15px 8px;
@@ -29,15 +27,51 @@ li a {
     padding: 15px 5px 5px;
 }
 
-.hero {
+.hero-text {
+ padding: 0 30px;
+ position: absolute;
+ top: 50%;
+ color: white;
+}
+
+.hero-image {
     width: 1140px;
-    height: 754px;
+}
+
+.bio-background {
+ background-image: url("images/light-wood.jpg");
+ background:no-repeat;
+ size: 1140px;
+}
+
+.bio-quote {
+ padding: 0 25px;
+ background-color: #88070E;
+ height: 150px;
+ width: 860px;
+ display: flex;
+ top: 20%;
+ bottom: 20%;
+ font-size: 35px;
+ color: white;
+}
+
+.bio-img {
+    height: 250px;
+    width: 300px; 
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.bio-text {
+    display: flex;
+    pos
+
 }
 
 
 
-
-.FOOTER {
+.footer {
     background-color: #88070E;
     color: white;
     width: 1140px;
