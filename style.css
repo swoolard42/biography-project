@@ -80,11 +80,133 @@ li a {
     font-size: 32px;
 }
 
-.boston-date {
-    font-size: 25px;
+.boston-body  {
+    font-size: 20px;
 }
 
+.boston-date {
+    font-size: 32px;
+}
 
+.ind-img {
+    display: flex;
+}
+
+.ind-title {
+    font-size: 32px;
+}
+
+.ind-body {
+    font-size: 20px;
+}
+
+.ind-date {
+    font-size: 32px;
+}
+
+.doi-img {
+    display: flex;
+}
+
+.doi-title {
+    font-size: 32px;
+}
+
+.doi-body {
+    font-size: 20px;
+}
+
+.doi-date {
+    font-size: 32px;
+}
+
+.dip-img {
+    display: flex;
+}
+
+.dip-title {
+    font-size: 32px;
+}
+
+.dip-body {
+    font-size: 20px;
+}
+
+.dip-date {
+    font-size: 32px;
+}
+
+.top-img {
+    display: flex;
+}
+
+.top-title {
+    font-size: 32px;
+}
+
+.top-body {
+    font-size: 20px;
+}
+
+.top-date {
+    font-size: 32px;
+}
+
+.pres-img {
+    display: flex;
+}
+
+.pres-title {
+    font-size: 32px;
+}
+
+.pres-body {
+    font-size: 20px;
+}
+
+.pres-date {
+    font-size: 32px;
+}
+
+.inf-title {
+    font-size: 50px;
+}
+
+.pf-img {
+    display: flex;
+}
+
+.pf-title {
+    font-size: 32px;
+}
+
+.pf-body {
+    font-size: 20px;
+}
+
+.hbo-img {
+    display: flex;
+}
+
+.hbo-title {
+    font-size: 32px;
+}
+
+.hbo-body {
+    font-size: 20px;
+}
+
+.ffm-img {
+    display: flex;
+}
+
+.ffm-title {
+    font-size: 32px;
+}
+
+.ffm-body {
+    font-size: 20px;
+}
 
 
 .footer {
