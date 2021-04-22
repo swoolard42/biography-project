@@ -38,9 +38,10 @@ li a {
 }
 
 .bio-background {
- background-image: url("images/light-wood.jpg");
- background:no-repeat;
- size: 5000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
 }
 
 .bio-quote {
@@ -50,21 +51,38 @@ li a {
  width: 860px;
  display: flex;
  top: 20%;
- bottom: 20%;
+ bottom: 30%;
  font-size: 35px;
  color: white;
 }
 
 .bio-img {
-    height: 380px;
-    width: 320px; 
+    height: 361px;
+    width: 350px; 
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
+    
 }
 
 .bio-text {
-    align-items: right;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    height: 50px;
+    vertical-align: center;
+    
+}
 
+.button {
+    background-color: #115A92;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 28px;
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 .timeline-header {
@@ -73,99 +91,166 @@ li a {
 
 .boston-img {
    display: flex;
+   width: 495px;
+   height: 348px;
 }
 
 
 .boston-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 450px;
 }
 
 .boston-body  {
     font-size: 20px;
+    display: flex;
+    margin-left: 450px;
 }
 
 .boston-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
+
 }
 
 .ind-img {
     display: flex;
+    width: 497px;
+    height: 355px;
 }
 
 .ind-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 360px;
 }
 
 .ind-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 360px;
 }
 
 .ind-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
 }
 
 .doi-img {
     display: flex;
+    width: 495px;
+    height: 348px;
 }
 
 .doi-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 480px;
 }
 
 .doi-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 480px;
 }
 
 .doi-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
 }
 
 .dip-img {
     display: flex;
+    width: 495px;
+    height: 348px;
 }
 
 .dip-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 350px;
 }
 
 .dip-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 350px;
 }
 
 .dip-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
 }
 
 .top-img {
     display: flex;
+    width: 495px;
+    height: 348px;
 }
 
 .top-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 580px;
 }
 
 .top-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 580px;
 }
 
 .top-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
 }
 
 .pres-img {
     display: flex;
+    width: 495px;
+    height: 348px;
 }
 
 .pres-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 400px;
 }
 
 .pres-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 400px;
 }
 
 .pres-date {
     font-size: 32px;
+    background-color: #88070E;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align-last: center;
 }
 
 .inf-title {
@@ -174,6 +259,8 @@ li a {
 
 .pf-img {
     display: flex;
+    width: 349px;
+    height: 279px;
 }
 
 .pf-title {
@@ -186,6 +273,8 @@ li a {
 
 .hbo-img {
     display: flex;
+    width: 349px;
+    height: 279px;
 }
 
 .hbo-title {
@@ -198,6 +287,8 @@ li a {
 
 .ffm-img {
     display: flex;
+    width: 349px;
+    height: 279px;
 }
 
 .ffm-title {
@@ -208,10 +299,25 @@ li a {
     font-size: 20px;
 }
 
+.footer-text {
+    font-size: 20px;
+    float: right;
+    padding: 5px 25px;
+}
+
+.footer-img1 {
+    width: 101px;
+    height: 94px;
+}
+
+.footer-img2 {
+    width: 98px;
+    height: 94px;
+}
 
 .footer {
     background-color: #88070E;
     color: white;
     width: 1140px;
-    height: 301px;    
+    height: 600px;    
 }
