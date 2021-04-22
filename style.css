@@ -83,6 +83,7 @@ li a {
     padding: 15px 28px;
     text-decoration: none;
     border-radius: 25px;
+    margin-left: 500px;
 }
 
 .timeline-header {
@@ -99,13 +100,13 @@ li a {
 .boston-title {
     font-size: 32px;
     display: flex;
-    margin-left: 450px;
+    
 }
 
 .boston-body  {
     font-size: 20px;
     display: flex;
-    margin-left: 450px;
+    
 }
 
 .boston-date {
@@ -115,7 +116,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
-
+    margin-left: 525px;
 }
 
 .ind-img {
@@ -127,13 +128,13 @@ li a {
 .ind-title {
     font-size: 32px;
     display: flex;
-    margin-left: 360px;
+   
 }
 
 .ind-body {
     font-size: 20px;
     display: flex;
-    margin-left: 360px;
+    
 }
 
 .ind-date {
@@ -143,6 +144,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
+    margin-left: 525px;
 }
 
 .doi-img {
@@ -154,13 +156,13 @@ li a {
 .doi-title {
     font-size: 32px;
     display: flex;
-    margin-left: 480px;
+  
 }
 
 .doi-body {
     font-size: 20px;
     display: flex;
-    margin-left: 480px;
+    
 }
 
 .doi-date {
@@ -170,6 +172,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
+    margin-left: 525px;
 }
 
 .dip-img {
@@ -181,13 +184,13 @@ li a {
 .dip-title {
     font-size: 32px;
     display: flex;
-    margin-left: 350px;
+    
 }
 
 .dip-body {
     font-size: 20px;
     display: flex;
-    margin-left: 350px;
+    
 }
 
 .dip-date {
@@ -197,6 +200,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
+    margin-left: 525px;
 }
 
 .top-img {
@@ -208,13 +212,13 @@ li a {
 .top-title {
     font-size: 32px;
     display: flex;
-    margin-left: 580px;
+    
 }
 
 .top-body {
     font-size: 20px;
     display: flex;
-    margin-left: 580px;
+    
 }
 
 .top-date {
@@ -224,6 +228,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
+    margin-left: 525px;
 }
 
 .pres-img {
@@ -235,13 +240,13 @@ li a {
 .pres-title {
     font-size: 32px;
     display: flex;
-    margin-left: 400px;
+    
 }
 
 .pres-body {
     font-size: 20px;
     display: flex;
-    margin-left: 400px;
+    
 }
 
 .pres-date {
@@ -251,6 +256,7 @@ li a {
     width: 100px;
     height: 100px;
     text-align-last: center;
+    margin-left: 525px;
 }
 
 .inf-title {
@@ -265,10 +271,13 @@ li a {
 
 .pf-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 450px;
 }
 
 .pf-body {
     font-size: 20px;
+    margin-left: 450px;
 }
 
 .hbo-img {
@@ -279,10 +288,14 @@ li a {
 
 .hbo-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 520px;
 }
 
 .hbo-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 520px;
 }
 
 .ffm-img {
@@ -293,10 +306,14 @@ li a {
 
 .ffm-title {
     font-size: 32px;
+    display: flex;
+    margin-left: 335px;
 }
 
 .ffm-body {
     font-size: 20px;
+    display: flex;
+    margin-left: 335px;
 }
 
 .footer-text {
