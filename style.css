@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 
 nav {
     font-size: 24px;
+    font-family: Karantina;
     background-color:#115A92;
     
 }
 .nav-header {
+    
     padding: 0 25px;
      background-color:#115A92;
     color:white;
@@ -27,6 +32,7 @@ li a {
 }
 
 .hero-text {
+ 
  padding: 0 30px;
  position: absolute;
  top: 50%;
@@ -66,6 +72,7 @@ background-repeat: no-repeat;
 }
 
 .bio-text {
+    font-family: Noto Sans;
     display: flex;
     margin-left: 340px;
     margin-bottom: 50px;
@@ -106,6 +113,7 @@ background-repeat: no-repeat;
 }
 
 .boston-body  {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -134,6 +142,7 @@ background-repeat: no-repeat;
 }
 
 .ind-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -162,6 +171,7 @@ background-repeat: no-repeat;
 }
 
 .doi-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -190,6 +200,7 @@ background-repeat: no-repeat;
 }
 
 .dip-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -218,6 +229,7 @@ background-repeat: no-repeat;
 }
 
 .top-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -246,6 +258,7 @@ background-repeat: no-repeat;
 }
 
 .pres-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     
@@ -278,6 +291,7 @@ background-repeat: no-repeat;
 }
 
 .pf-body {
+    font-family: Noto Sans;
     font-size: 20px;
     margin-left: 450px;
 }
@@ -295,6 +309,7 @@ background-repeat: no-repeat;
 }
 
 .hbo-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     margin-left: 520px;
@@ -313,6 +328,7 @@ background-repeat: no-repeat;
 }
 
 .ffm-body {
+    font-family: Noto Sans;
     font-size: 20px;
     display: flex;
     margin-left: 335px;
