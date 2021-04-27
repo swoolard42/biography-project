@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 nav {
-    font-size: 24px;
+    font-size: 30px;
     font-family: Karantina;
     background-color:#115A92;
     
 }
 .nav-header {
-    
+    font-family: Bree Serif;
+    font-size: 30px;
     padding: 0 25px;
      background-color:#115A92;
     color:white;
@@ -32,7 +33,7 @@ li a {
 }
 
 .hero-text {
- 
+ font-family: Bree Serif;
  padding: 0 30px;
  position: absolute;
  top: 50%;
@@ -41,25 +42,32 @@ li a {
 
 .hero-image {
     width: 1140px;
+
 }
 
 .bio-background {
-position: absolute;
 background-repeat: no-repeat;
+opacity: 90%;
+background-size: contain;
+width: 30%;
+height: 60vh;
 
 }
 
 .bio-quote {
+ font-family: Bree Serif;
+ vertical-align: center;
  padding: 0px 25px;
  background-color: #88070E;
  height: 150px;
  width: 860px;
  display: flex;
- top: 20%;
+ top: 30%;
  bottom: 30%;
  font-size: 35px;
  color: white;
- position: relative;
+ position:relative;
+ margin-left: 320px;
 }
 
 .bio-img {
@@ -68,7 +76,6 @@ background-repeat: no-repeat;
     display: flex;
     margin-top: 20px;
     position: relative;
-    
 }
 
 .bio-text {
@@ -77,9 +84,9 @@ background-repeat: no-repeat;
     margin-left: 340px;
     margin-bottom: 50px;
     padding-bottom: 50px;
-    height: 50px;
     vertical-align: center;
     position: relative;
+    
 }
 
 .button {
@@ -91,31 +98,33 @@ background-repeat: no-repeat;
     padding: 15px 28px;
     text-decoration: none;
     border-radius: 25px;
-    margin-left: 500px;
+    margin-left: 550px;
 }
 
 .timeline-header {
+    font-family: Bree Serif;
     font-size: 50px;
-    position: relative;
 }
 
 .boston-img {
    display: flex;
-   width: 495px;
+   width: 420px;
    height: 348px;
+   border: 2px solid #88070E;
 }
 
 
 .boston-title {
+    font-family: Bree Serif;
     font-size: 32px;
-    display: flex;
+    justify-content: center;
     
 }
 
 .boston-body  {
     font-family: Noto Sans;
     font-size: 20px;
-    display: flex;
+    justify-content: center;
     
 }
 
@@ -125,26 +134,26 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
+    border: 3px solid black;
     text-align-last: center;
-    margin-left: 525px;
+    margin-left: 575px;
 }
 
 .ind-img {
     display: flex;
-    width: 497px;
-    height: 355px;
+    width: 310px;
+    height: 348px;
+    border: 2px solid #88070E;
 }
 
 .ind-title {
-    font-size: 32px;
-    display: flex;
-   
+    font-family: Bree Serif;
+    font-size: 32px; 
 }
 
 .ind-body {
     font-family: Noto Sans;
     font-size: 20px;
-    display: flex;
     
 }
 
@@ -154,17 +163,20 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
+    border: 3px solid black;
     text-align-last: center;
-    margin-left: 525px;
+    margin-left: 575px;
 }
 
 .doi-img {
     display: flex;
-    width: 495px;
-    height: 348px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #88070E;
 }
 
 .doi-title {
+    font-family: Bree Serif;
     font-size: 32px;
     display: flex;
   
@@ -183,17 +195,20 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
+    border: 3px solid black;
     text-align-last: center;
-    margin-left: 525px;
+    margin-left: 575px;
 }
 
 .dip-img {
     display: flex;
-    width: 495px;
+    width: 285px;
     height: 348px;
+    border: 2px solid #88070E;
 }
 
 .dip-title {
+    font-family: Bree Serif;
     font-size: 32px;
     display: flex;
     
@@ -212,17 +227,20 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
-    text-align-last: center;
-    margin-left: 525px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 575px;
 }
 
 .top-img {
     display: flex;
-    width: 495px;
-    height: 348px;
+    width: 490px;
+    height: 275px;
+    border: 2px solid #88070E;
 }
 
 .top-title {
+    font-family: Bree Serif;
     font-size: 32px;
     display: flex;
     
@@ -241,17 +259,20 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
+    border: 3px solid black;
     text-align-last: center;
-    margin-left: 525px;
+    margin-left: 575px;
 }
 
 .pres-img {
     display: flex;
-    width: 495px;
+    width: 349px;
     height: 348px;
+    border: 2px solid #88070E;
 }
 
 .pres-title {
+    font-family: Bree Serif;
     font-size: 32px;
     display: flex;
     
@@ -270,11 +291,14 @@ background-repeat: no-repeat;
     color: white;
     width: 100px;
     height: 100px;
-    text-align-last: center;
-    margin-left: 525px;
+    border: 3px solid black;
+    align-content: center;
+    text-align: center;
+    margin-left: 575px;
 }
 
 .inf-title {
+    font-family: Bree Serif;
     font-size: 50px;
 }
 
@@ -285,74 +309,87 @@ background-repeat: no-repeat;
 }
 
 .pf-title {
+    font-family: Bree Serif;
     font-size: 32px;
-    display: flex;
-    margin-left: 450px;
+    display: inline;    
+    flex-wrap: wrap;
+    
 }
 
 .pf-body {
     font-family: Noto Sans;
+    display: inline;
     font-size: 20px;
-    margin-left: 450px;
 }
 
 .hbo-img {
     display: flex;
-    width: 349px;
-    height: 279px;
+    width: 400px;
+    height: 300px;
 }
 
 .hbo-title {
+    font-family: Bree Serif;
     font-size: 32px;
-    display: flex;
-    margin-left: 520px;
+    display: inline;
+   
 }
 
 .hbo-body {
     font-family: Noto Sans;
     font-size: 20px;
-    display: flex;
-    margin-left: 520px;
+    display: inline;
 }
 
 .ffm-img {
     display: flex;
-    width: 349px;
-    height: 279px;
-}
+    width: 450px;
+    height: 380px;
+   }
 
 .ffm-title {
+    font-family: Bree Serif;
     font-size: 32px;
-    display: flex;
-    margin-left: 335px;
+    display: inline;
+    
 }
 
 .ffm-body {
     font-family: Noto Sans;
     font-size: 20px;
-    display: flex;
-    margin-left: 335px;
+    display: inline;
+    
 }
 
 .footer-text {
+    font-family: Bree Serif;
     font-size: 20px;
     float: right;
     padding: 5px 25px;
+    margin-top: 30px;
 }
 
 .footer-img1 {
+    display: flex;
+    float: right;
     width: 101px;
     height: 94px;
+    margin-top: 100px;
+   margin-left: 100px;
 }
 
 .footer-img2 {
+    display: flex;
+    float: right;
     width: 98px;
     height: 94px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 .footer {
     background-color: #88070E;
     color: white;
-    width: 1140px;
-    height: 600px;    
+    width: 1240px;
+    height: 300px;    
 }
