@@ -32,17 +32,32 @@ li a {
     padding: 15px 5px 5px;
 }
 
+header {
+    background: url("images/overview-John-Adams.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
 .hero-text {
  font-family: Bree Serif;
  padding: 0 30px;
  position: absolute;
- top: 50%;
+ top: 60%;
+ left: 100px;
  color: white;
 }
 
-.hero-image {
-    width: 1140px;
+.bio-container {
+    background: url("images/lightwood_texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.bio-overlay {
+    background:rgba(255, 255, 255, .5);
+    padding-top: 25px;
 }
 
 .bio-background {
@@ -51,42 +66,47 @@ opacity: 90%;
 background-size: contain;
 width: 30%;
 height: 60vh;
-
 }
 
 .bio-quote {
  font-family: Bree Serif;
- vertical-align: center;
- padding: 0px 25px;
  background-color: #88070E;
  height: 150px;
+ line-height: 75px;
  width: 860px;
- display: flex;
- top: 30%;
- bottom: 30%;
  font-size: 35px;
  color: white;
- position:relative;
- margin-left: 320px;
+ margin: 0 auto;
+ padding: 15px;
 }
+
+.bio-quote h3 {
+    margin: 0px;
+}
+
+.bio-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 
 .bio-img {
     height: 400px;
     width: 400px; 
-    display: flex;
-    margin-top: 20px;
-    position: relative;
+    margin-bottom: 25px;
+}
+
+.bio-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bio-text {
     font-family: Noto Sans;
-    display: flex;
-    margin-left: 340px;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    vertical-align: center;
-    position: relative;
-    
+    width: 60%;
+    margin-left: 25px;
 }
 
 .button {
@@ -294,7 +314,7 @@ height: 60vh;
     border: 3px solid black;
     align-content: center;
     text-align: center;
-    margin-left: 575px;
+    margin-left: 570px;
 }
 
 .inf-title {
@@ -375,7 +395,7 @@ height: 60vh;
     width: 101px;
     height: 94px;
     margin-top: 100px;
-   margin-left: 100px;
+    padding: 10px 10px;
 }
 
 .footer-img2 {
@@ -384,12 +404,13 @@ height: 60vh;
     width: 98px;
     height: 94px;
     margin-top: 100px;
-    margin-right: 100px;
+    padding: 10px 10px; 
 }
 
 .footer {
     background-color: #88070E;
     color: white;
-    width: 1240px;
+    width: 1500px;
     height: 300px;    
+    background-size: cover;
 }
