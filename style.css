@@ -56,13 +56,13 @@ header {
 }
 
 .bio-overlay {
-    background:rgba(255, 255, 255, .5);
+    background: rgba 255, 255, 255, .6;
     padding-top: 25px;
 }
 
 .bio-background {
 background-repeat: no-repeat;
-opacity: 90%;
+opacity: 40%;
 background-size: contain;
 width: 30%;
 height: 60vh;
@@ -71,6 +71,7 @@ height: 60vh;
 .bio-quote {
  font-family: Bree Serif;
  background-color: #88070E;
+ border: 3px solid black;
  height: 150px;
  line-height: 75px;
  width: 860px;
@@ -118,7 +119,8 @@ height: 60vh;
     padding: 15px 28px;
     text-decoration: none;
     border-radius: 25px;
-    margin-left: 550px;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 
 .timeline-header {
@@ -149,14 +151,16 @@ height: 60vh;
 }
 
 .boston-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     text-align-last: center;
-    margin-left: 575px;
+    margin-top: 400px;
+    margin-right: 25px;
+    float: right;
 }
 
 .ind-img {
@@ -178,14 +182,16 @@ height: 60vh;
 }
 
 .ind-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     text-align-last: center;
-    margin-left: 575px;
+    margin-top: 50px;
+    margin-right: 25px;
+    float: right;
 }
 
 .doi-img {
@@ -210,14 +216,16 @@ height: 60vh;
 }
 
 .doi-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     text-align-last: center;
-    margin-left: 575px;
+    margin-top: 50px;
+    margin-right: 25px;
+    float: right;
 }
 
 .dip-img {
@@ -242,14 +250,16 @@ height: 60vh;
 }
 
 .dip-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     text-align: center;
-    margin-left: 575px;
+    margin-top: 95px;
+    margin-right: 25px;
+    float: right;
 }
 
 .top-img {
@@ -274,14 +284,16 @@ height: 60vh;
 }
 
 .top-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     text-align-last: center;
-    margin-left: 575px;
+    margin-top: 70px;
+    margin-right: 25px;
+    float: right;
 }
 
 .pres-img {
@@ -306,15 +318,17 @@ height: 60vh;
 }
 
 .pres-date {
-    font-size: 32px;
+    font-size: 45px;
     background-color: #88070E;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 3px solid black;
     align-content: center;
     text-align: center;
-    margin-left: 570px;
+    margin-top: 95px;
+    margin-right: 25px;
+    float: right;
 }
 
 .inf-title {
