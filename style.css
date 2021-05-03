@@ -142,6 +142,7 @@ height: 60vh;
 .timeline-header {
     font-family: Bree Serif;
     font-size: 50px;
+    margin: 25px;
 }
 
 .boston-img {
@@ -365,65 +366,67 @@ height: 60vh;
 .inf-title {
     font-family: Bree Serif;
     font-size: 50px;
+    margin-left: 25px;
 }
 
 .pf-img {
     display: flex;
-    width: 349px;
-    height: 279px;
+    width: 436px;
+    height: 275px;
+    border: 2px solid blue;
+    margin-left: 25px;
 }
 
 .pf-title {
     font-family: Bree Serif;
-    font-size: 32px;
-    display: inline;    
-    flex-wrap: wrap;
-    
+    font-size: 32px;    
+    margin-left: 25px;
 }
 
 .pf-body {
     font-family: Noto Sans;
-    display: inline;
     font-size: 20px;
+    margin-left: 25px;
 }
 
 .hbo-img {
     display: flex;
-    width: 400px;
+    width: 545px;
     height: 300px;
+    border: 2px solid blue;
+    margin-left: 25px;
 }
 
 .hbo-title {
     font-family: Bree Serif;
     font-size: 32px;
-    display: inline;
-   
+    margin-left: 25px;
 }
 
 .hbo-body {
     font-family: Noto Sans;
     font-size: 20px;
-    display: inline;
+    margin-left: 25px;
 }
 
 .ffm-img {
     display: flex;
-    width: 450px;
+    width: 380px;
     height: 380px;
+    border: 2px solid blue;
+    margin-left: 25px;
    }
 
 .ffm-title {
     font-family: Bree Serif;
     font-size: 32px;
-    display: inline;
-    
+    margin-left: 25px;
 }
 
 .ffm-body {
     font-family: Noto Sans;
     font-size: 20px;
-    display: inline;
-    
+    margin-left: 25px;
 }
 
 .footer-text {
