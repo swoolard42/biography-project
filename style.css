@@ -437,18 +437,29 @@ height: 60vh;
     margin-left: 25px;
 }
 
-.footer-header {
-    font-family: Bree Serif;
-    font-size: 50px;
-    padding: 10px 10px;
-}
-
 .footer-text {
     font-family: Bree Serif;
     font-size: 20px;
     float: right;
     padding: 5px 25px;
     margin-top: 0px;
+}
+
+.footer-img1 {
+    display: flex;
+    width: 60%;
+    height: 25%;
+    margin-left: 1320px;
+    padding-top: 70px;
+}
+
+.footer-img2 {
+    display: flex;
+    width: 60%;
+    height: 25%;
+    margin-left: 1320px;
+    padding-top: 15px;
+    
 }
 
 .footer {
