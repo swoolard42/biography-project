@@ -111,20 +111,20 @@ height: 60vh;
 }
 
 .button {
-    background-color: #115A92;
-    color: white;
-    border: 2px solid black;
+    display: inline-block;
+    border:2px solid black;
+    text-decoration: none;
+    background: #115A92;
+    color:white;
+    padding: 1rem 2rem;
     text-align: center;
     font-family: sans-serif;
-    display: inline-block;
-    padding: 5px 25px;
-    text-decoration: none;
     border-radius: 25px;
     box-sizing: border-box;
     margin-left: 25px;
     margin-bottom: 25px;
     margin-top: 25px;
-    outline:none;
+    cursor: pointer;
 }
 
 .timeline-container {
